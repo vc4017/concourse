@@ -1,0 +1,9 @@
+---
+applications:
+- name: Demo_CD_sample_one
+  memory: 1GB #The maximum memory to allocate to each application instance
+  instances: 1 #The number of instances of the application to start
+  path: Sample_login.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  
+
